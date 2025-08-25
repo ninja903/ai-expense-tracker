@@ -9,7 +9,7 @@
     "lint": "eslint"
   },
   "dependencies": {
-    "@clerk/nextjs": "^6.24.0",
+    "@clerk/nextjs": "^6.31.4",
     "@clerk/themes": "^2.2.55",
     "@prisma/client": "^6.11.1",
     "autoprefixer": "^10.4.21",
