@@ -3,7 +3,7 @@ import Link from 'next/link';
 const AboutPage = () => {
     return (
         <div className='font-sans bg-gradient-to-br from-gray-50 via-white to-emerald-50 dark:from-gray-900 dark:via-gray-800 dark:to-emerald-900/20 text-gray-800 dark:text-gray-200 transition-all duration-300 min-h-screen'>
-            {/* Hero Section */}
+           
             <section className='relative overflow-hidden flex flex-col items-center justify-center text-center py-16 sm:py-20 md:py-24 px-4 sm:px-6 md:px-8 bg-gradient-to-br from-emerald-500/10 via-green-500/5 to-teal-500/10 dark:from-emerald-900/30 dark:via-green-900/20 dark:to-teal-900/30'>
                 <div className='absolute inset-0 bg-grid-pattern opacity-5 dark:opacity-10'></div>
                 <div className='relative z-10 max-w-4xl mx-auto w-full'>
@@ -40,7 +40,6 @@ const AboutPage = () => {
                 </div>
             </section>
 
-            {/* Mission Section */}
             <section className='py-12 sm:py-16 md:py-20 px-4 sm:px-6 md:px-8 bg-white/80 dark:bg-gray-800/80 backdrop-blur-sm relative overflow-hidden'>
                 <div className='absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-emerald-500 via-green-500 to-teal-500'></div>
                 <div className='max-w-4xl mx-auto text-center'>
@@ -88,7 +87,7 @@ const AboutPage = () => {
                 </div>
             </section>
 
-            {/* Features Section */}
+    
             <section className='py-20 px-8 bg-gradient-to-br from-gray-50 via-white to-emerald-50 dark:from-gray-900 dark:via-gray-800 dark:to-emerald-900/20'>
                 <div className='max-w-6xl mx-auto'>
                     <div className='text-center mb-16'>
@@ -163,7 +162,7 @@ const AboutPage = () => {
                 </div>
             </section>
 
-            {/* Story Section */}
+     
             <section className='py-20 px-8 bg-white/80 dark:bg-gray-800/80 backdrop-blur-sm relative overflow-hidden'>
                 <div className='absolute top-0 right-0 w-64 h-64 bg-gradient-to-br from-emerald-500/5 to-green-500/5 rounded-full blur-2xl'></div>
                 <div className='absolute bottom-0 left-0 w-64 h-64 bg-gradient-to-br from-teal-500/5 to-emerald-500/5 rounded-full blur-2xl'></div>
@@ -242,7 +241,6 @@ const AboutPage = () => {
                 </div>
             </section>
 
-            {/* Call to Action Section */}
             <section className='py-20 px-8 bg-gradient-to-br from-gray-50 via-white to-emerald-50 dark:from-gray-900 dark:via-gray-800 dark:to-emerald-900/20 relative overflow-hidden'>
                 <div className='absolute inset-0 bg-grid-pattern opacity-5 dark:opacity-10'></div>
                 <div className='absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-emerald-500 via-green-500 to-teal-500'></div>
